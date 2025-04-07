@@ -1,0 +1,86 @@
+# Nazmul Islam Portfolio - Project Requirements
+
+## Node.js Requirements
+- Node.js >= 18.x
+- npm >= 8.x or Yarn >= 1.22.x
+
+## JavaScript/TypeScript Dependencies
+- next@14.1.0
+- react@18.2.0
+- react-dom@18.2.0
+- react-icons@5.0.1
+- framer-motion@11.0.3
+- tailwindcss@3.4.1
+- autoprefixer@10.4.16
+- postcss@8.4.32
+
+## Development Dependencies
+- typescript@5.3.3
+- @types/node@20.10.6
+- @types/react@18.2.46
+- @types/react-dom@18.2.18
+- eslint@8.56.0
+- eslint-config-next@14.1.0
+
+## Image Requirements
+### Profile Image
+- public/profile.jpg (Placeholder - Replace with actual profile image)
+
+### Project Images (Place in public/projects/)
+- ecommerce.jpg
+- taskmanager.jpg
+- weather.jpg
+- social.jpg
+
+### Skill Icons (Place in public/skills/)
+- javascript.png
+- typescript.png
+- react.png
+- node.png
+- nextjs.png
+- python.png
+- mongodb.png
+- sql.png
+- aws.png
+- docker.png
+- git.png
+- tailwind.png
+
+## Setup Instructions
+1. Install dependencies:
+   ```
+   yarn install
+   ```
+   or
+   ```
+   npm install
+   ```
+
+2. Add required images to the public directory
+
+3. Run development server:
+   ```
+   yarn dev
+   ```
+   or
+   ```
+   npm run dev
+   ```
+
+4. Build for production:
+   ```
+   yarn build
+   ```
+   or
+   ```
+   npm run build
+   ```
+
+5. Start production server:
+   ```
+   yarn start
+   ```
+   or
+   ```
+   npm start
+   ``` 
