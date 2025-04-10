@@ -54,7 +54,7 @@ const Navbar = () => {
         >
             <div className='flex justify-between items-center w-full h-full px-4 2xl:px-16'>
                 <Link href='/'>
-                    <h1 className='text-primary text-3xl font-bold'>Nazmul<span className='text-secondary'>.dev</span></h1>
+                    <h1 className='text-primary text-3xl font-bold'>Nazmul<span className='text-secondary'>.Islam</span></h1>
                 </Link>
                 <div>
                     <ul className='hidden md:flex gap-8'>
@@ -72,6 +72,9 @@ const Navbar = () => {
                         </li>
                         <li className='text-sm uppercase hover:text-primary'>
                             <Link href='/#experience'>Experience</Link>
+                        </li>
+                        <li className='text-sm uppercase hover:text-primary'>
+                            <Link href='/social'>Social Media</Link>
                         </li>
                         <li className='text-sm uppercase hover:text-primary'>
                             <Link href='/#contact'>Contact</Link>
@@ -108,7 +111,7 @@ const Navbar = () => {
                     <div>
                         <div className='flex w-full items-center justify-between'>
                             <Link href='/'>
-                                <h1 className='text-primary text-3xl font-bold'>Nazmul<span className='text-secondary'>.dev</span></h1>
+                                <h1 className='text-primary text-3xl font-bold'>Nazmul<span className='text-secondary'>.Islam</span></h1>
                             </Link>
                             <div
                                 onClick={handleNav}
@@ -148,6 +151,11 @@ const Navbar = () => {
                             <Link href='/#experience'>
                                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                                     Experience
+                                </li>
+                            </Link>
+                            <Link href='/social'>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                                    Social Media
                                 </li>
                             </Link>
                             <Link href='/#contact'>

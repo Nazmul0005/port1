@@ -16,16 +16,14 @@ const Hero = () => {
                         transition={{ duration: 0.8 }}
                     >
                         <p className='uppercase text-sm tracking-widest text-gray-600 dark:text-gray-400'>
-                            LET&apos;S BUILD SOMETHING TOGETHER
+                            LET&apos;S Innovate with AI
                         </p>
                         <h1 className='py-4 text-gray-700 dark:text-gray-200'>
                             Hi, I&apos;m <span className='text-primary'>Nazmul</span>
                         </h1>
-                        <h1 className='py-2 text-gray-700 dark:text-gray-200'>Software Engineer</h1>
+                        <h1 className='py-2 text-gray-700 dark:text-gray-200'>Junior AI Developer</h1>
                         <p className='py-4 text-gray-600 dark:text-gray-400 max-w-[70%] m-auto'>
-                            Passionate software engineer specializing in building exceptional
-                            digital experiences. Currently, I'm focused on building responsive
-                            web applications while learning new technologies.
+                        Passionate AI developer dedicated to crafting intelligent and data-driven solutions. Currently focused on building machine learning models, exploring generative AI, and creating impactful AI-powered applications. Always eager to learn and experiment with emerging technologies.
                         </p>
                     </motion.div>
 
@@ -36,7 +34,7 @@ const Hero = () => {
                         transition={{ duration: 0.8, delay: 0.5 }}
                     >
                         <a
-                            href='https://www.linkedin.com/in/'
+                            href='https://www.linkedin.com/in/nazmul-islam-634642276/'
                             target='_blank'
                             rel='noreferrer'
                         >
@@ -45,7 +43,7 @@ const Hero = () => {
                             </div>
                         </a>
                         <a
-                            href='https://github.com/'
+                            href='https://github.com/Nazmul0005'
                             target='_blank'
                             rel='noreferrer'
                         >
@@ -53,7 +51,7 @@ const Hero = () => {
                                 <FaGithub />
                             </div>
                         </a>
-                        <a href='mailto:nazmul@example.com'>
+                        <a href='mailto:nazmulislam45213@gmail.com'>
                             <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                 <MdEmail />
                             </div>

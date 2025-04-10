@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-light dark:bg-dark text-dark dark:text-light;
+  }
+}
+
+* {
+  @apply transition-colors duration-200;
+}
+
+.bg-light {
+  background-color: #ffffff;
+}
+
+.bg-dark {
+  background-color: #1a1a1a;
+}
+
+.text-light {
+  color: #ffffff;
+}
+
+.text-dark {
+  color: #1a1a1a;
+}
+
+/* Add smooth transitions for theme changes */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

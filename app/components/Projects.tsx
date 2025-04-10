@@ -9,19 +9,19 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 const Projects = () => {
     const projects = [
         {
-            title: 'E-Commerce Platform',
-            description: 'A full-stack e-commerce platform with product management, cart functionality, and secure payment processing.',
-            image: '/projects/ecommerce.jpg',
-            technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-            github: 'https://github.com',
+            title: 'Suicide Ideation Detection System',
+            description: 'A comprehensive AI-powered system for detecting suicidal ideation in tweets using Machine Learning, Deep Learning, and BERT-based NLP models.',
+            image: '/sentiment_wide.jpg',
+            technologies: ['Machine Learning', 'Deep Learning', 'NLP', 'BERT','XLNet', 'Python', 'scikit-learn'],
+            github: 'https://github.com/Nazmul0005/Twitter-Based-Suicide-Ideation-Detection-System',
             demo: 'https://example.com'
         },
         {
-            title: 'Task Management App',
-            description: 'A productivity app for managing tasks, setting priorities, and tracking progress on projects.',
-            image: '/projects/taskmanager.jpg',
-            technologies: ['React', 'Redux', 'Firebase'],
-            github: 'https://github.com',
+            title: 'Movie Review Sentiment Analysis',
+            description: 'A sentiment classification system for movie reviews using Machine Learning and Hugging Face’s generative AI models to identify positive or negative opinions in text.',
+            image: '/movie_sentiment_wide.jpg',
+            technologies: ['Python', 'scikit-learn', 'TensorFlow & Keras', 'NLP', 'NLTK', 'Gensim','Torch', 'Hugging Face Transformers'],
+            github: 'https://github.com/Nazmul0005/MovieReview_SentimentAnalysis_Using_ML_-_HuggingFace_PretrainedModel',
             demo: 'https://example.com'
         },
         {

@@ -20,22 +20,13 @@ const About = () => {
                     </p>
                     <h2 className='py-4'>Who I Am</h2>
                     <p className='py-2 text-gray-600 dark:text-gray-400'>
-                        I am a passionate software engineer with a strong focus on web development
-                        and cloud technologies. With several years of experience in the industry,
-                        I've developed a deep understanding of software architecture, design patterns,
-                        and best practices.
+                        I am a passionate AI developer with a solid background in machine learning research and digital innovation. Currently working at SM Technology in Banasree, Dhaka, I design, develop, and deploy AI models and solutions using cutting-edge technologies such as NLP, generative AI, and deep learning.
                     </p>
                     <p className='py-2 text-gray-600 dark:text-gray-400'>
-                        I started my coding journey building simple websites and quickly advanced
-                        to developing complex web applications. I enjoy solving challenging problems
-                        and creating efficient, scalable solutions. My approach is detail-oriented,
-                        with a focus on writing clean, maintainable code.
+                        My journey began in web development, and I quickly evolved into building intelligent, data-driven applications that solve complex real-world challenges. I approach every project with a detail-oriented mindset, ensuring my code is clean, scalable, and maintainable according to industry best practices.
                     </p>
                     <p className='py-2 text-gray-600 dark:text-gray-400'>
-                        When I'm not coding, you'll find me exploring new technologies, reading
-                        technical blogs, or contributing to open-source projects. I'm constantly
-                        learning and looking for ways to improve my skills and stay updated with
-                        the latest industry trends.
+                        When I'm not immersed in code, you can find me exploring the latest trends in AI, reading technical blogs, or contributing to open-source projects—always eager to learn and grow in this rapidly evolving field.
                     </p>
                     <a href="#projects">
                         <p className='py-2 text-gray-600 dark:text-gray-400 underline cursor-pointer'>
@@ -50,14 +41,15 @@ const About = () => {
                     transition={{ duration: 0.8 }}
                     viewport={{ once: true }}
                 >
-                    <div className='relative w-full h-[300px]'>
-                        {/* Replace with your profile image or a suitable placeholder */}
+                    <div className='relative w-full aspect-[3/4] max-h-[500px]'>
                         <Image
-                            src='/profile.jpg'
-                            alt='Profile'
-                            layout='fill'
-                            className='rounded-xl'
-                            objectFit='cover'
+                            src='/mypic2.jpg'
+                            alt='Nazmul Profile Picture'
+                            fill
+                            priority
+                            sizes="(max-width: 768px) 100vw, 33vw"
+                            className='rounded-xl object-cover object-center'
+                            quality={100}
                         />
                     </div>
                 </motion.div>
