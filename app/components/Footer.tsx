@@ -14,10 +14,10 @@ const Footer = () => {
                 <div className='grid md:grid-cols-3 gap-8'>
                     <div>
                         <h3 className='text-2xl font-bold mb-4'>Nazmul Islam</h3>
-                        <p className='mb-4'>Software Engineer passionate about building exceptional digital experiences.</p>
+                        <p className='mb-4'>AI Developer Passionate about blending artificial intelligence with intuitive design to craft smart, engaging, and human-centric digital experiences.</p>
                         <div className='flex space-x-4'>
                             <a
-                                href='https://www.linkedin.com/in/'
+                                href='https://www.linkedin.com/in/nazmul-islam-634642276/'
                                 target='_blank'
                                 rel='noreferrer'
                                 aria-label='LinkedIn'
@@ -27,7 +27,7 @@ const Footer = () => {
                                 </div>
                             </a>
                             <a
-                                href='https://github.com/'
+                                href='https://github.com/Nazmul0005'
                                 target='_blank'
                                 rel='noreferrer'
                                 aria-label='GitHub'
@@ -37,7 +37,7 @@ const Footer = () => {
                                 </div>
                             </a>
                             <a
-                                href='mailto:nazmul@example.com'
+                                href='mailto:nazmulislam45213@gmail.com'
                                 aria-label='Email'
                             >
                                 <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
@@ -81,13 +81,13 @@ const Footer = () => {
                         <ul className='space-y-2'>
                             <li>San Francisco, CA</li>
                             <li>
-                                <a href='mailto:nazmul@example.com' className='hover:text-primary transition-colors'>
-                                    nazmul@example.com
+                                <a href='mailto:nazmulislam45213@gmail.com.com' className='hover:text-primary transition-colors'>
+                                    nazmulislam45213@gmail.com
                                 </a>
                             </li>
                             <li>
-                                <a href='tel:+11234567890' className='hover:text-primary transition-colors'>
-                                    +1 (123) 456-7890
+                                <a href='tel:+8801879547960' className='hover:text-primary transition-colors'>
+                                    +8801879547960
                                 </a>
                             </li>
                         </ul>

@@ -77,6 +77,9 @@ const Navbar = () => {
                             <Link href='/social'>Social Media</Link>
                         </li>
                         <li className='text-sm uppercase hover:text-primary'>
+                            <Link href='/#youtube'>YouTube</Link>
+                        </li>
+                        <li className='text-sm uppercase hover:text-primary'>
                             <Link href='/#contact'>Contact</Link>
                         </li>
                         <li>
@@ -158,7 +161,12 @@ const Navbar = () => {
                                     Social Media
                                 </li>
                             </Link>
-                            <Link href='/#contact'>
+                            <Link href='/#youtube'>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                                    YouTube
+                                </li>
+                            </Link>
+                            <Link href='/contact'>
                                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                                     Contact
                                 </li>

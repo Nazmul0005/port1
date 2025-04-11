@@ -75,7 +75,7 @@ const Contact = () => {
                         <div className='lg:p-4 h-full'>
                             <div>
                                 <h2 className='py-2 text-2xl'>Nazmul Islam</h2>
-                                <p className='py-2 text-gray-600 dark:text-gray-400'>Software Engineer</p>
+                                <p className='py-2 text-gray-600 dark:text-gray-400'>AI Developer</p>
                                 <p className='py-2 text-gray-600 dark:text-gray-400'>
                                     I am available for freelance or full-time positions. Contact
                                     me and let&apos;s talk.
@@ -85,7 +85,7 @@ const Contact = () => {
                                 <p className='uppercase pt-8 text-primary'>Connect With Me</p>
                                 <div className='flex items-center gap-6 py-4'>
                                     <a
-                                        href='https://www.linkedin.com/in/'
+                                        href='https://www.linkedin.com/in/nazmul-islam-634642276/'
                                         target='_blank'
                                         rel='noreferrer'
                                     >
@@ -94,7 +94,7 @@ const Contact = () => {
                                         </div>
                                     </a>
                                     <a
-                                        href='https://github.com/'
+                                        href='https://github.com/Nazmul0005'
                                         target='_blank'
                                         rel='noreferrer'
                                     >
@@ -102,7 +102,11 @@ const Contact = () => {
                                             <FaGithub className='text-primary' size={20} />
                                         </div>
                                     </a>
-                                    <a href='mailto:nazmul@example.com'>
+                                    <a
+                                        href='https://mail.google.com/mail/?view=cm&fs=1&to=nazmulislam45213@gmail.com&su=Portfolio Contact'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                    >
                                         <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                                             <MdEmail className='text-primary' size={20} />
                                         </div>
@@ -112,15 +116,22 @@ const Contact = () => {
                             <div className='pt-4'>
                                 <div className='flex items-center gap-4 py-2'>
                                     <MdEmail className='text-primary' size={20} />
-                                    <p className='text-gray-600 dark:text-gray-400'>nazmul@example.com</p>
+                                    <a
+                                        href='https://mail.google.com/mail/?view=cm&fs=1&to=nazmulislam45213@gmail.com&su=Portfolio Contact'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='text-gray-600 dark:text-gray-400 hover:text-primary transition-colors'
+                                    >
+                                        nazmulislam45213@gmail.com
+                                    </a>
                                 </div>
                                 <div className='flex items-center gap-4 py-2'>
                                     <MdPhone className='text-primary' size={20} />
-                                    <p className='text-gray-600 dark:text-gray-400'>+1 (123) 456-7890</p>
+                                    <p className='text-gray-600 dark:text-gray-400'>+8801879547960</p>
                                 </div>
                                 <div className='flex items-center gap-4 py-2'>
                                     <MdLocationOn className='text-primary' size={20} />
-                                    <p className='text-gray-600 dark:text-gray-400'>San Francisco, CA</p>
+                                    <p className='text-gray-600 dark:text-gray-400'>Dhaka, Bangladesh</p>
                                 </div>
                             </div>
                         </div>
