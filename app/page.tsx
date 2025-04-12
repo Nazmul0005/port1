@@ -149,7 +149,7 @@ export default function Home() {
 
                                 <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center">
                                     <a
-                                        href="https://youtube.com/@yourchannel/playlists"
+                                        href="https://www.youtube.com/@content123/playlists"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="inline-flex items-center justify-center px-6 py-3 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-lg"
@@ -157,7 +157,7 @@ export default function Home() {
                                         View All Playlists
                                     </a>
                                     <a
-                                        href="https://youtube.com/@yourchannel/community"
+                                        href="https://www.youtube.com/@content123/community"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="inline-flex items-center justify-center px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary/90 transition-all duration-300 hover:scale-105 hover:shadow-lg"
@@ -177,8 +177,8 @@ export default function Home() {
                                         </div>
                                     </div>
                                     <div className="p-4 bg-gray-50 dark:bg-gray-700 transform transition-all duration-300 group-hover:bg-primary group-hover:text-white">
-                                        <h5 className="font-medium text-gray-900 dark:text-white group-hover:text-white">Building a Portfolio with Next.js</h5>
-                                        <p className="text-sm text-gray-600 dark:text-gray-300 group-hover:text-gray-100">Published 2 days ago • 10K views</p>
+                                        <h5 className="font-medium text-gray-900 dark:text-white group-hover:text-white">Make a chatbot using LangChain & RAG in just 10 minutes</h5>
+                                        <p className="text-sm text-gray-600 dark:text-gray-300 group-hover:text-gray-100">Published 2 days ago • 1K views</p>
                                     </div>
                                 </div>
                             </div>

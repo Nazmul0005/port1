@@ -12,6 +12,40 @@ import {
 } from 'react-icons/si';
 import { FaRobot, FaBrain, FaDatabase, FaRocket, FaChartBar } from 'react-icons/fa';
 import { BsCodeSlash, BsGear } from 'react-icons/bs';
+import { IconCloud } from '../registry/magicui/icon-cloud';
+
+const slugs = [
+    "typescript",
+    "javascript",
+    "dart",
+    "java",
+    "react",
+    "flutter",
+    "android",
+    "html5",
+    "css3",
+    "nodedotjs",
+    "express",
+    "nextdotjs",
+    "prisma",
+    "amazonaws",
+    "postgresql",
+    "firebase",
+    "nginx",
+    "vercel",
+    "testinglibrary",
+    "jest",
+    "cypress",
+    "docker",
+    "git",
+    "jira",
+    "github",
+    "gitlab",
+    "visualstudiocode",
+    "androidstudio",
+    "sonarqube",
+    "figma",
+];
 
 const Skills = () => {
     const skillCategories = [
@@ -66,6 +100,18 @@ const Skills = () => {
                     Skills
                 </p>
                 <h2 className='py-4'>What I Can Do</h2>
+
+                {/* Add spacing */}
+                <div className="h-8"></div>
+
+                {/* Icon Cloud Component */}
+                <div className="w-full flex justify-center items-center mb-12">
+                    <div className="w-[900px] h-[700px] flex items-center justify-center bg-gradient-to-br from-gray-900/90 to-gray-800/90 dark:from-gray-800/90 dark:to-gray-900/90 backdrop-blur-sm rounded-xl shadow-xl p-4">
+                        <IconCloud
+                            images={slugs.map(slug => `https://cdn.simpleicons.org/${slug}/${slug}`)}
+                        />
+                    </div>
+                </div>
 
                 {skillCategories.map((category, categoryIndex) => (
                     <motion.div

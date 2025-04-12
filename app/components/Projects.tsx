@@ -25,19 +25,19 @@ const Projects = () => {
             demo: 'https://example.com'
         },
         {
-            title: 'Weather Dashboard',
-            description: 'A weather application that provides real-time weather data and forecasts for locations worldwide.',
-            image: '/projects/weather.jpg',
-            technologies: ['JavaScript', 'OpenWeather API', 'Chart.js'],
-            github: 'https://github.com',
+            title: 'Style Stream',
+            description: 'A real-time artistic style transfer system for images, webcam feeds, and videos using Deep Learning, OpenCV, and Python to blend visual content with artistic styles.',
+            image: '/deep_neural_wide.jpg',
+            technologies: ['Python', 'OpenCV', 'TensorFlow', 'Numpy', 'Matplotlib', 'PyTorch', 'Streamlit', 'VGG19'],
+            github: 'https://github.com/Nazmul0005/Deep-Neural-Style-Transfer',
             demo: 'https://example.com'
         },
         {
-            title: 'Social Media Platform',
-            description: 'A social networking application with user authentication, profiles, posts, and real-time messaging.',
-            image: '/projects/social.jpg',
-            technologies: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
-            github: 'https://github.com',
+            title: 'Custom AI Chatbot for Any Company',
+            description: 'Custom AI Chatbot for Enterprises using RAG & LangChain to deliver accurate and context-aware responses.',
+            image: '/chat_wide.jpg',
+            technologies: ['Python', 'LangChain', 'RAG', 'OpenAI', 'Hugging Face', 'Streamlit', 'PyPDF2','FAISS'],
+            github: 'https://github.com/Nazmul0005/sm_technology_chatbot',
             demo: 'https://example.com'
         }
     ];

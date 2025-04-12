@@ -29,9 +29,9 @@ const ProjectsPage = () => {
             title: 'Movie Review Sentiment Analysis',
             description: 'A sentiment classification system for movie reviews using Machine Learning and Hugging Face’s generative AI models to identify positive or negative opinions in text.',
             longDescription: 'Built with React, Node.js, and MongoDB, this e-commerce platform features user authentication, product catalog management, shopping cart functionality, secure payment processing with Stripe, order management, and an admin dashboard.',
-            image: '/sentiment.jpg',
-            technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe', 'Redux', 'JWT', 'Tailwind CSS'],
-            github: 'https://github.com',
+            image: '/movie_sentiment_vertical.jpg',
+            technologies: ['Python', 'scikit-learn', 'TensorFlow & Keras', 'NLP', 'NLTK', 'Gensim','Torch', 'Hugging Face Transformers'],
+            github: 'https://github.com/Nazmul0005/MovieReview_SentimentAnalysis_Using_ML_-_HuggingFace_PretrainedModel',
             demo: 'https://example.com',
             features: [
                 'User authentication and authorization',
@@ -43,12 +43,12 @@ const ProjectsPage = () => {
             ]
         },
         {
-            title: 'Task Management App',
+            title: 'Style Stream',
             description: 'A productivity app for managing tasks, setting priorities, and tracking progress on projects.',
             longDescription: 'A comprehensive task management application that helps users organize their work, collaborate with team members, and track project progress. Features include drag-and-drop task organization, real-time updates, and detailed analytics.',
-            image: '/projects/taskmanager.jpg',
-            technologies: ['React', 'Redux', 'Firebase', 'Material-UI', 'Chart.js'],
-            github: 'https://github.com',
+            image: '/deep_neural_vertical.jpg',
+            technologies: ['Python', 'OpenCV', 'TensorFlow', 'Numpy', 'Matplotlib', 'PyTorch', 'Streamlit', 'VGG19'],
+            github: 'https://github.com/Nazmul0005/Deep-Neural-Style-Transfer',
             demo: 'https://example.com',
             features: [
                 'Drag-and-drop task organization',
@@ -60,12 +60,12 @@ const ProjectsPage = () => {
             ]
         },
         {
-            title: 'Weather Dashboard',
+            title: 'Custom AI Chatbot for Any Company',
             description: 'A weather application that provides real-time weather data and forecasts for locations worldwide.',
             longDescription: 'An intuitive weather dashboard that delivers real-time weather information and forecasts using the OpenWeather API. Features include location search, detailed weather metrics, and interactive weather maps.',
-            image: '/projects/weather.jpg',
-            technologies: ['JavaScript', 'OpenWeather API', 'Chart.js', 'HTML5', 'CSS3'],
-            github: 'https://github.com',
+            image: '/chat_vertical.jpg',
+            technologies: ['Python', 'LangChain', 'RAG', 'OpenAI', 'Hugging Face', 'Streamlit', 'PyPDF2','FAISS'],
+            github: 'https://github.com/Nazmul0005/sm_technology_chatbot',
             demo: 'https://example.com',
             features: [
                 'Real-time weather updates',

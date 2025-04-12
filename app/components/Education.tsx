@@ -7,18 +7,18 @@ import { FaGraduationCap, FaRegCalendarAlt, FaMapMarkerAlt } from 'react-icons/f
 const Education = () => {
     const educations = [
         {
-            degree: 'Master of Science in Computer Science',
-            institution: 'Stanford University',
-            period: '2016 - 2018',
-            location: 'Stanford, CA',
+            degree: 'Master of Science in Information Technology',
+            institution: 'Jahangirnagar University',
+            period: '2023 - Appeared',
+            location: 'Dhaka, Bangladesh',
             description: 'Specialized in Artificial Intelligence and Machine Learning. Conducted research on natural language processing and neural networks.'
         },
         {
-            degree: 'Bachelor of Science in Computer Science',
-            institution: 'MIT',
-            period: '2012 - 2016',
-            location: 'Cambridge, MA',
-            description: 'Graduated with honors. Completed coursework in data structures, algorithms, software engineering, and database systems.'
+            degree: 'Bachelor of Science in Information Technology',
+            institution: 'University of Information Technology & Sciences',
+            period: '2019 - 2023',
+            location: 'Dhaka, Bangladesh',
+            description: 'Completed coursework in machine learning, artificial intelligence, algorithms, software engineering, and database systems.'
         }
     ];
 
