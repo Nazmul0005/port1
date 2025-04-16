@@ -71,10 +71,28 @@ const Navbar = () => {
                             <Link href='/#projects'>Projects</Link>
                         </li>
                         <li className='text-sm uppercase hover:text-primary'>
-                            <Link href='/#experience'>Experience</Link>
+                            <Link
+                                href="#experience"
+                                className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                            >
+                                Experience
+                            </Link>
                         </li>
                         <li className='text-sm uppercase hover:text-primary'>
-                            <Link href='/social'>Social Media</Link>
+                            <Link
+                                href="#research"
+                                className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                            >
+                                Research
+                            </Link>
+                        </li>
+                        <li className='text-sm uppercase hover:text-primary'>
+                            <Link
+                                href="#social"
+                                className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                            >
+                                Social Media
+                            </Link>
                         </li>
                         <li className='text-sm uppercase hover:text-primary'>
                             <Link href='/#youtube'>YouTube</Link>
@@ -154,6 +172,11 @@ const Navbar = () => {
                             <Link href='/#experience'>
                                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                                     Experience
+                                </li>
+                            </Link>
+                            <Link href='/#research'>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                                    Research
                                 </li>
                             </Link>
                             <Link href='/social'>

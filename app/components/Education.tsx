@@ -45,7 +45,7 @@ const Education = () => {
         <div id='education' className='w-full p-2 py-16'>
             <div className='max-w-[1240px] mx-auto'>
                 <motion.p
-                    className='text-xl tracking-widest uppercase text-primary'
+                    className='text-2xl tracking-widest uppercase text-primary'
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 0.5 }}
@@ -54,7 +54,7 @@ const Education = () => {
                     Education
                 </motion.p>
                 <motion.h2
-                    className='py-4'
+                    className='py-6 text-4xl font-bold'
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.2 }}
@@ -63,7 +63,7 @@ const Education = () => {
                     My Academic Background
                 </motion.h2>
                 <motion.div
-                    className='grid gap-8'
+                    className='grid gap-10'
                     variants={containerVariants}
                     initial="hidden"
                     whileInView="visible"
@@ -72,29 +72,29 @@ const Education = () => {
                     {educations.map((edu, index) => (
                         <motion.div
                             key={index}
-                            className='bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300'
+                            className='bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300'
                             variants={itemVariants}
                         >
-                            <div className='flex flex-col md:flex-row justify-between items-start mb-4'>
+                            <div className='flex flex-col md:flex-row justify-between items-start mb-6'>
                                 <div>
-                                    <div className='flex items-center gap-2 mb-2'>
-                                        <FaGraduationCap className='text-primary text-xl' />
-                                        <h3 className='text-xl font-bold'>{edu.degree}</h3>
+                                    <div className='flex items-center gap-3 mb-3'>
+                                        <FaGraduationCap className='text-primary text-2xl' />
+                                        <h3 className='text-2xl font-bold'>{edu.degree}</h3>
                                     </div>
-                                    <h4 className='text-primary font-semibold'>{edu.institution}</h4>
+                                    <h4 className='text-primary text-xl font-semibold'>{edu.institution}</h4>
                                 </div>
-                                <div className='mt-2 md:mt-0 md:text-right'>
-                                    <div className='flex items-center md:justify-end text-gray-600 dark:text-gray-400 mb-1'>
-                                        <FaRegCalendarAlt className='mr-2' />
+                                <div className='mt-4 md:mt-0 md:text-right'>
+                                    <div className='flex items-center md:justify-end text-gray-600 dark:text-gray-400 mb-2 text-lg'>
+                                        <FaRegCalendarAlt className='mr-3 text-xl' />
                                         <span>{edu.period}</span>
                                     </div>
-                                    <div className='flex items-center md:justify-end text-gray-600 dark:text-gray-400'>
-                                        <FaMapMarkerAlt className='mr-2' />
+                                    <div className='flex items-center md:justify-end text-gray-600 dark:text-gray-400 text-lg'>
+                                        <FaMapMarkerAlt className='mr-3 text-xl' />
                                         <span>{edu.location}</span>
                                     </div>
                                 </div>
                             </div>
-                            <p className='text-gray-600 dark:text-gray-400'>{edu.description}</p>
+                            <p className='text-gray-600 dark:text-gray-400 text-lg'>{edu.description}</p>
                         </motion.div>
                     ))}
                 </motion.div>
